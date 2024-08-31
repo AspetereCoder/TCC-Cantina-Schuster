@@ -1,0 +1,94 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*                 classes gerais              */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: white;   
+}
+
+/*                  Fim                            */
+
+.title-div {
+    background-color: #8d4925;
+    text-align: center;
+}
+
+.title-div .subtitulo {
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    /*justify-content: space-between;*/
+    background-color: #C57D56;
+    min-height: 30vh;
+}
+
+.cabecalho h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.cabecalho .header-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.cabecalho #logo-container {
+    position: absolute;
+    left: 5;
+}
+
+
+/*                  Main                  */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #f9e4b7;
+    min-height: 70vh;
+}
+
+
+
+.wrapper {
+    background-color: #C57D56;
+    max-height: 270px;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin-top: 5%;
+    text-align: center;
+    width: 320px;
+    cursor: pointer;
+}
+
+.subtitulo {
+    margin-bottom: 13px;
+}

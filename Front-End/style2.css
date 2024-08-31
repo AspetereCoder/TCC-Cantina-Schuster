@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4; /* Altere a cor de fundo conforme desejado */
+    border-bottom: 2px solid #ccc; /* Opcional: adiciona uma linha na parte inferior */
+    position: relative; /* Necessário para o posicionamento absoluto do conteúdo do cabeçalho */
+}
+
+.logo {
+    height: 50px; /* Ajuste a altura da logo conforme necessário */
+}
+
+.header-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    pointer-events: none; /* Permite clicar na logo sem problemas */
+}
+
+.title {
+    margin: 0;
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+}
