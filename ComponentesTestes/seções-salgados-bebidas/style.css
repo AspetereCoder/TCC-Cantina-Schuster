@@ -6,7 +6,7 @@
 .box {
     width: 200px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #8d4925;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -16,7 +16,7 @@
     height: auto;
 }
 .box:hover {
-    background-color: #f0f0f0;
+    background-color: #c57d56;
 }
 
 a {
