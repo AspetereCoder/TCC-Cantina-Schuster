@@ -34,6 +34,11 @@ body {
     left: 5;
 }
 
+.title-div {
+    background-color: #8d4925;
+    text-align: center;
+}
+
 .titulo {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
