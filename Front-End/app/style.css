@@ -1,21 +1,3 @@
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
-.titulo {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;   
-}
-
 .login-div {
     background-color: #8d4925;
     text-align: center;
@@ -23,37 +5,6 @@ body {
 
 .login-div .subtitulo {
     margin: 0;
-}
-
-.cabecalho {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    position: relative;
-    /*justify-content: space-between;*/
-    background-color: #C57D56;
-    min-height: 30vh;
-}
-
-.cabecalho h1 {
-    text-align: center;
-    margin: 0;
-}
-
-.cabecalho .header-content {
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.cabecalho #logo-container {
-    position: absolute;
-    left: 5;
-}
-
-main {
-    background-color: #f9e4b7;
-    min-height: 70vh;
 }
 
 #formulario-login {
